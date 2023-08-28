@@ -1,0 +1,5 @@
+import time
+
+print (time.asctime(time.localtime()))
+#time.localtime() gets all the info from the computer in a not so nice to read output
+#while time.asctime will take that and make it look cute :)
